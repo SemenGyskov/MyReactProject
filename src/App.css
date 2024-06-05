@@ -1,0 +1,58 @@
+body{
+  margin: 0 auto;
+  background: rgb(27, 26, 26);
+  color:rgb(212, 207, 207);
+}
+a{
+  color:rgb(139, 134, 134);
+  text-decoration: none;
+}
+hr{
+  border: solid rgb(139, 134, 134);
+}
+
+.messages-wrap{
+  display: flex;
+}
+
+
+
+.navbar{
+    height: 100%; 
+    margin:auto;
+    width: 160px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    background-color: #111;
+
+}
+.content,.header,.footer{
+  text-align: center;
+}
+.navbar-item{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.active {
+  color: rgb(255, 255, 255);
+  }
+  
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
