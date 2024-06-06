@@ -1,10 +1,11 @@
-
-
-
+import ProfileInfo from "./ProfileInfo"
+import MyPosts from "./MyPosts"
 const Profile = () => {
     return( 
-        <div>
+        <div className="Profile">
             <h1>Profile</h1>
+            <MyPosts/>
+            <ProfileInfo/>
         </div>
     )
 }

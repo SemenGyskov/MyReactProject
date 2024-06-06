@@ -28,6 +28,8 @@ hr{
     overflow-x: hidden; 
     padding-top: 20px;
     background-color: #111;
+}
+.content{
 
 }
 .content,.header,.footer{
